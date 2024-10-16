@@ -16,12 +16,12 @@ const App = () => {
     {
       id: 3,
       title: 'Sneakers',
-      imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+      imageUrl: "https://www.cornerstreet.fr/media/catalog/category/VoirTousLesProduits_1.jpg",
     },
     {
       id: 4,
       title: 'Womens',
-       imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
+       imageUrl: "https://www.icmi.com.au/wp-content/uploads/2022/10/Campaign-Page-Image-860-%C3%97-624px-3-1-768x557.jpg",
     },
     {
       id: 5,
