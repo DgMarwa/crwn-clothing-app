@@ -1,3 +1,5 @@
+import  { Outlet }from 'react-router-dom';
+
 import Directory from '../../components/directory/directory.component';
 
 const Home = () => {
@@ -20,7 +22,7 @@ const Home = () => {
     {
       id: 4,
       title: 'Womens',
-       imageUrl: "https://www.icmi.com.au/wp-content/uploads/2022/10/Campaign-Page-Image-860-%C3%97-624px-3-1-768x557.jpg",
+       imageUrl: "https://womensentrepreneurnetwork.org/wp-content/uploads/2022/12/3.png",
     },
     {
       id: 5,
@@ -28,8 +30,12 @@ const Home = () => {
        imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
     },
   ];
-   return  <Directory categories= {categories} />;
-   
+   return (
+   <div> 
+    <Outlet/>
+    <Directory categories= {categories} />
+   </div>
+   );
 
     };
     export default Home;
